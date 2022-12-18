@@ -114,7 +114,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  fill: #afb1b8;
+  fill: var(--secondary-text-color);
 }
 .mail-icon {
   width: 16px;
@@ -130,7 +130,7 @@ body {
 .contakts__link:hover,
 .contakts__link:focus {
   color: var(--button-hover-color);
-  fill: #2196f3;
+  fill: currentColor;
 }
 .nav__link[href="#"] {
   color: var(--button-hover-color);
@@ -335,7 +335,7 @@ body {
 
 .social-links__link:focus,
 .social-links__link:hover {
-  background-color: #2196f3;
+  background-color: var(--button-hover-color);
   fill: #ffffff;
 }
 
@@ -365,31 +365,6 @@ body {
   border-radius: 4px;
   fill: #afb1b8;
 }
-
-.clients-icon-1 {
-  width: 41px;
-  height: 47px;
-}
-.clients-icon-2 {
-  width: 40px;
-  height: 52px;
-}
-.clients-icon-3 {
-  width: 43px;
-  height: 42px;
-}
-.clients-icon-4 {
-  width: 84px;
-  height: 41px;
-}
-.clients-icon-5 {
-  width: 63px;
-  height: 45px;
-}
-.clients-icon-6 {
-  width: 94px;
-  height: 44px;
-}
 .clients-icon-wrapper {
   display: flex;
   align-items: center;
@@ -400,7 +375,6 @@ body {
 .clients-item:hover {
   border-color: var(--button-hover-color);
   fill: var(--button-hover-color);
-  cursor: pointer;
 }
 
 /* Footer */
